@@ -1,0 +1,16 @@
+div#JSeditor, div#CSSeditor {
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 3px 6px 6px -5px black;
+}
+table.easyinject_table {
+    width: 100%;
+}
+table.easyinject_table td {
+    width: 50%;
+}
+table.easyinject_table h4 {
+    font-size: 17px;
+    margin: 0 0px 15px 5px;
+}
+.no-display {display: none;}
