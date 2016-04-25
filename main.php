@@ -101,9 +101,9 @@ class EI_Main {
 
 
 		if ( ! wp_is_post_revision( $post_id ) ) {
-			remove_action( 'save_post', array( $this, 'save' ) );
+			remove_action( 'save_post', array( $this, 'meta_box_save' ) );
 
-			add_action( 'save_post', array( $this, 'save' ) );
+			add_action( 'save_post', array( $this, 'meta_box_save' ) );
 		}
 
 	}
